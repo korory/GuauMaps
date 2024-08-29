@@ -1,0 +1,34 @@
+# Archivos de compilación de Xcode
+build/
+DerivedData/
+*.xcworkspace
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+*.xcuserdatad/
+*.xcuserdata/
+
+# Pods - Evita subir los archivos generados por CocoaPods
+Pods/
+Podfile.lock
+
+# Archivos de configuración específicos del entorno local
+*.xcconfig
+*.plist
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Otros archivos temporales o de caché
+*.moved-aside
+*.swp
+*.lock
+*~
+
+# Archivos de símbolos de depuración
+*.dSYM/
+
+# Archivos de historia de estado
+*.DS_Store
