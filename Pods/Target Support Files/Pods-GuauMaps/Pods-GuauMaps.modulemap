@@ -1,0 +1,6 @@
+framework module Pods_GuauMaps {
+  umbrella header "Pods-GuauMaps-umbrella.h"
+
+  export *
+  module * { export * }
+}

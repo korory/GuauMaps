@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22FAA2E4A5DE642E286DB120 /* Pods_GuauMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C547A411D921658A8495EC1 /* Pods_GuauMaps.framework */; };
+		57B3156B2C80810C009FCA61 /* GuauMapsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B3156A2C80810C009FCA61 /* GuauMapsApp.swift */; };
+		57B3156D2C80810C009FCA61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B3156C2C80810C009FCA61 /* ContentView.swift */; };
+		57B3156F2C80810D009FCA61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B3156E2C80810D009FCA61 /* Assets.xcassets */; };
+		57B315722C80810D009FCA61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B315712C80810D009FCA61 /* Preview Assets.xcassets */; };
+		57B3157C2C80810D009FCA61 /* GuauMapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B3157B2C80810D009FCA61 /* GuauMapsTests.swift */; };
+		57B315862C80810D009FCA61 /* GuauMapsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B315852C80810D009FCA61 /* GuauMapsUITests.swift */; };
+		57B315882C80810D009FCA61 /* GuauMapsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B315872C80810D009FCA61 /* GuauMapsUITestsLaunchTests.swift */; };
+		CD254040072CD9021C9F6381 /* Pods_GuauMapsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67525FD2923DF3EB2BEE2505 /* Pods_GuauMapsTests.framework */; };
+		D16151A7FBC3C253900288E6 /* Pods_GuauMaps_GuauMapsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFA82CDFC7F24B741B87DCEF /* Pods_GuauMaps_GuauMapsUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57B315782C80810D009FCA61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57B3155F2C80810C009FCA61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57B315662C80810C009FCA61;
+			remoteInfo = GuauMaps;
+		};
+		57B315822C80810D009FCA61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57B3155F2C80810C009FCA61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57B315662C80810C009FCA61;
+			remoteInfo = GuauMaps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09D4FEA1DA59FB1D6171EAA4 /* Pods-GuauMaps-GuauMapsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuauMaps-GuauMapsUITests.debug.xcconfig"; path = "Target Support Files/Pods-GuauMaps-GuauMapsUITests/Pods-GuauMaps-GuauMapsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		17E264C46A4481032E509E69 /* Pods-GuauMaps-GuauMapsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuauMaps-GuauMapsUITests.release.xcconfig"; path = "Target Support Files/Pods-GuauMaps-GuauMapsUITests/Pods-GuauMaps-GuauMapsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1A280C94C6102B5C7DE379D2 /* Pods-GuauMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuauMaps.debug.xcconfig"; path = "Target Support Files/Pods-GuauMaps/Pods-GuauMaps.debug.xcconfig"; sourceTree = "<group>"; };
+		337A3066B890CC6AD6DD549E /* Pods-GuauMapsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuauMapsTests.release.xcconfig"; path = "Target Support Files/Pods-GuauMapsTests/Pods-GuauMapsTests.release.xcconfig"; sourceTree = "<group>"; };
+		497E9BE6CFF0EFE31CD639B9 /* Pods-GuauMapsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuauMapsTests.debug.xcconfig"; path = "Target Support Files/Pods-GuauMapsTests/Pods-GuauMapsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		57B315672C80810C009FCA61 /* GuauMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuauMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B3156A2C80810C009FCA61 /* GuauMapsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuauMapsApp.swift; sourceTree = "<group>"; };
+		57B3156C2C80810C009FCA61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		57B3156E2C80810D009FCA61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57B315712C80810D009FCA61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		57B315772C80810D009FCA61 /* GuauMapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuauMapsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B3157B2C80810D009FCA61 /* GuauMapsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuauMapsTests.swift; sourceTree = "<group>"; };
+		57B315812C80810D009FCA61 /* GuauMapsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuauMapsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B315852C80810D009FCA61 /* GuauMapsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuauMapsUITests.swift; sourceTree = "<group>"; };
+		57B315872C80810D009FCA61 /* GuauMapsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuauMapsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		67525FD2923DF3EB2BEE2505 /* Pods_GuauMapsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuauMapsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C547A411D921658A8495EC1 /* Pods_GuauMaps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuauMaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E48947A6415D1762D1A1AB /* Pods-GuauMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuauMaps.release.xcconfig"; path = "Target Support Files/Pods-GuauMaps/Pods-GuauMaps.release.xcconfig"; sourceTree = "<group>"; };
+		EFA82CDFC7F24B741B87DCEF /* Pods_GuauMaps_GuauMapsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuauMaps_GuauMapsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57B315642C80810C009FCA61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FAA2E4A5DE642E286DB120 /* Pods_GuauMaps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B315742C80810D009FCA61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD254040072CD9021C9F6381 /* Pods_GuauMapsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B3157E2C80810D009FCA61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D16151A7FBC3C253900288E6 /* Pods_GuauMaps_GuauMapsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50268D11EBC98B9189D44818 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A280C94C6102B5C7DE379D2 /* Pods-GuauMaps.debug.xcconfig */,
+				B3E48947A6415D1762D1A1AB /* Pods-GuauMaps.release.xcconfig */,
+				09D4FEA1DA59FB1D6171EAA4 /* Pods-GuauMaps-GuauMapsUITests.debug.xcconfig */,
+				17E264C46A4481032E509E69 /* Pods-GuauMaps-GuauMapsUITests.release.xcconfig */,
+				497E9BE6CFF0EFE31CD639B9 /* Pods-GuauMapsTests.debug.xcconfig */,
+				337A3066B890CC6AD6DD549E /* Pods-GuauMapsTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		57B3155E2C80810C009FCA61 = {
+			isa = PBXGroup;
+			children = (
+				57B315692C80810C009FCA61 /* GuauMaps */,
+				57B3157A2C80810D009FCA61 /* GuauMapsTests */,
+				57B315842C80810D009FCA61 /* GuauMapsUITests */,
+				57B315682C80810C009FCA61 /* Products */,
+				50268D11EBC98B9189D44818 /* Pods */,
+				A7EC3F187EE1E322EDC6A27A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57B315682C80810C009FCA61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57B315672C80810C009FCA61 /* GuauMaps.app */,
+				57B315772C80810D009FCA61 /* GuauMapsTests.xctest */,
+				57B315812C80810D009FCA61 /* GuauMapsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57B315692C80810C009FCA61 /* GuauMaps */ = {
+			isa = PBXGroup;
+			children = (
+				57B3156A2C80810C009FCA61 /* GuauMapsApp.swift */,
+				57B3156C2C80810C009FCA61 /* ContentView.swift */,
+				57B3156E2C80810D009FCA61 /* Assets.xcassets */,
+				57B315702C80810D009FCA61 /* Preview Content */,
+			);
+			path = GuauMaps;
+			sourceTree = "<group>";
+		};
+		57B315702C80810D009FCA61 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				57B315712C80810D009FCA61 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		57B3157A2C80810D009FCA61 /* GuauMapsTests */ = {
+			isa = PBXGroup;
+			children = (
+				57B3157B2C80810D009FCA61 /* GuauMapsTests.swift */,
+			);
+			path = GuauMapsTests;
+			sourceTree = "<group>";
+		};
+		57B315842C80810D009FCA61 /* GuauMapsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57B315852C80810D009FCA61 /* GuauMapsUITests.swift */,
+				57B315872C80810D009FCA61 /* GuauMapsUITestsLaunchTests.swift */,
+			);
+			path = GuauMapsUITests;
+			sourceTree = "<group>";
+		};
+		A7EC3F187EE1E322EDC6A27A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C547A411D921658A8495EC1 /* Pods_GuauMaps.framework */,
+				EFA82CDFC7F24B741B87DCEF /* Pods_GuauMaps_GuauMapsUITests.framework */,
+				67525FD2923DF3EB2BEE2505 /* Pods_GuauMapsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57B315662C80810C009FCA61 /* GuauMaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B3158B2C80810D009FCA61 /* Build configuration list for PBXNativeTarget "GuauMaps" */;
+			buildPhases = (
+				F59BB49BCF5C4CC42AB30B45 /* [CP] Check Pods Manifest.lock */,
+				57B315632C80810C009FCA61 /* Sources */,
+				57B315642C80810C009FCA61 /* Frameworks */,
+				57B315652C80810C009FCA61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuauMaps;
+			productName = GuauMaps;
+			productReference = 57B315672C80810C009FCA61 /* GuauMaps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57B315762C80810D009FCA61 /* GuauMapsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B3158E2C80810D009FCA61 /* Build configuration list for PBXNativeTarget "GuauMapsTests" */;
+			buildPhases = (
+				95A6125AA2E164C7F7A11D84 /* [CP] Check Pods Manifest.lock */,
+				57B315732C80810D009FCA61 /* Sources */,
+				57B315742C80810D009FCA61 /* Frameworks */,
+				57B315752C80810D009FCA61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57B315792C80810D009FCA61 /* PBXTargetDependency */,
+			);
+			name = GuauMapsTests;
+			productName = GuauMapsTests;
+			productReference = 57B315772C80810D009FCA61 /* GuauMapsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57B315802C80810D009FCA61 /* GuauMapsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B315912C80810D009FCA61 /* Build configuration list for PBXNativeTarget "GuauMapsUITests" */;
+			buildPhases = (
+				013E2E25BE3F53FC5C9650BE /* [CP] Check Pods Manifest.lock */,
+				57B3157D2C80810D009FCA61 /* Sources */,
+				57B3157E2C80810D009FCA61 /* Frameworks */,
+				57B3157F2C80810D009FCA61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57B315832C80810D009FCA61 /* PBXTargetDependency */,
+			);
+			name = GuauMapsUITests;
+			productName = GuauMapsUITests;
+			productReference = 57B315812C80810D009FCA61 /* GuauMapsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57B3155F2C80810C009FCA61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					57B315662C80810C009FCA61 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					57B315762C80810D009FCA61 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 57B315662C80810C009FCA61;
+					};
+					57B315802C80810D009FCA61 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 57B315662C80810C009FCA61;
+					};
+				};
+			};
+			buildConfigurationList = 57B315622C80810C009FCA61 /* Build configuration list for PBXProject "GuauMaps" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57B3155E2C80810C009FCA61;
+			productRefGroup = 57B315682C80810C009FCA61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57B315662C80810C009FCA61 /* GuauMaps */,
+				57B315762C80810D009FCA61 /* GuauMapsTests */,
+				57B315802C80810D009FCA61 /* GuauMapsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57B315652C80810C009FCA61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B315722C80810D009FCA61 /* Preview Assets.xcassets in Resources */,
+				57B3156F2C80810D009FCA61 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B315752C80810D009FCA61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B3157F2C80810D009FCA61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		013E2E25BE3F53FC5C9650BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuauMaps-GuauMapsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95A6125AA2E164C7F7A11D84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuauMapsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F59BB49BCF5C4CC42AB30B45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuauMaps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57B315632C80810C009FCA61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B3156D2C80810C009FCA61 /* ContentView.swift in Sources */,
+				57B3156B2C80810C009FCA61 /* GuauMapsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B315732C80810D009FCA61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B3157C2C80810D009FCA61 /* GuauMapsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B3157D2C80810D009FCA61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B315882C80810D009FCA61 /* GuauMapsUITestsLaunchTests.swift in Sources */,
+				57B315862C80810D009FCA61 /* GuauMapsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57B315792C80810D009FCA61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57B315662C80810C009FCA61 /* GuauMaps */;
+			targetProxy = 57B315782C80810D009FCA61 /* PBXContainerItemProxy */;
+		};
+		57B315832C80810D009FCA61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57B315662C80810C009FCA61 /* GuauMaps */;
+			targetProxy = 57B315822C80810D009FCA61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		57B315892C80810D009FCA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57B3158A2C80810D009FCA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57B3158C2C80810D009FCA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A280C94C6102B5C7DE379D2 /* Pods-GuauMaps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GuauMaps/Preview Content\"";
+				DEVELOPMENT_TEAM = BD25VMM275;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnaurivas.GuauMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57B3158D2C80810D009FCA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E48947A6415D1762D1A1AB /* Pods-GuauMaps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GuauMaps/Preview Content\"";
+				DEVELOPMENT_TEAM = BD25VMM275;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnaurivas.GuauMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57B3158F2C80810D009FCA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 497E9BE6CFF0EFE31CD639B9 /* Pods-GuauMapsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BD25VMM275;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnaurivas.GuauMapsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuauMaps.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GuauMaps";
+			};
+			name = Debug;
+		};
+		57B315902C80810D009FCA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 337A3066B890CC6AD6DD549E /* Pods-GuauMapsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BD25VMM275;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnaurivas.GuauMapsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuauMaps.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GuauMaps";
+			};
+			name = Release;
+		};
+		57B315922C80810D009FCA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09D4FEA1DA59FB1D6171EAA4 /* Pods-GuauMaps-GuauMapsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BD25VMM275;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnaurivas.GuauMapsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuauMaps;
+			};
+			name = Debug;
+		};
+		57B315932C80810D009FCA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17E264C46A4481032E509E69 /* Pods-GuauMaps-GuauMapsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BD25VMM275;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnaurivas.GuauMapsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuauMaps;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57B315622C80810C009FCA61 /* Build configuration list for PBXProject "GuauMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B315892C80810D009FCA61 /* Debug */,
+				57B3158A2C80810D009FCA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57B3158B2C80810D009FCA61 /* Build configuration list for PBXNativeTarget "GuauMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B3158C2C80810D009FCA61 /* Debug */,
+				57B3158D2C80810D009FCA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57B3158E2C80810D009FCA61 /* Build configuration list for PBXNativeTarget "GuauMapsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B3158F2C80810D009FCA61 /* Debug */,
+				57B315902C80810D009FCA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57B315912C80810D009FCA61 /* Build configuration list for PBXNativeTarget "GuauMapsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B315922C80810D009FCA61 /* Debug */,
+				57B315932C80810D009FCA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57B3155F2C80810C009FCA61 /* Project object */;
+}

@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1486A329021E47168DDEE1F389FFCF1A /* Pods-GuauMaps-GuauMapsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCD2D55A7582D0907A7E7308E7A588E /* Pods-GuauMaps-GuauMapsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8448887ACB21D2FAB13CDF8E661945 /* Pods-GuauMapsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B21A89CC6E3944A9E683C00C2BEDE9F /* Pods-GuauMapsTests-dummy.m */; };
+		31439DA83E2B8D14FA95CAF75EAFB65E /* Pods-GuauMaps-GuauMapsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A32149D8DFD5463CE6D89C2E3615C22 /* Pods-GuauMaps-GuauMapsUITests-dummy.m */; };
+		342B3BCF56D991391B79AB0F84C85D82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		450CBE5550019014A58EC10A28F7B9D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		520F7C659970F1A768783B49CB976BA1 /* Pods-GuauMapsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C4EF225ED10DF05244507545E22AEB8 /* Pods-GuauMapsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B5895EA0B496F5758DDF4F6BF5060D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BFAA487BDC121CE46807E3DD915A8357 /* Pods-GuauMaps-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99AB18B2069BB942C1B70176BF337237 /* Pods-GuauMaps-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF1EE3228D9E5A92421844EFD2C43A8D /* Pods-GuauMaps-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A89E2728A478BCEC2A614CFD36134C9C /* Pods-GuauMaps-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37435D1FD9132DDD7F4E9E7C48671F74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0AF79CC11E284FBDF9FF1AF99B5BFD2;
+			remoteInfo = "Pods-GuauMaps";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23C58150E6A27B9EB46AED5CB977E42C /* Pods-GuauMapsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GuauMapsTests.modulemap"; sourceTree = "<group>"; };
+		2407EC3EEF6A7D0D0E902A32A9C5CFA1 /* Pods-GuauMaps */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GuauMaps"; path = Pods_GuauMaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A32149D8DFD5463CE6D89C2E3615C22 /* Pods-GuauMaps-GuauMapsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GuauMaps-GuauMapsUITests-dummy.m"; sourceTree = "<group>"; };
+		2B21A89CC6E3944A9E683C00C2BEDE9F /* Pods-GuauMapsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GuauMapsTests-dummy.m"; sourceTree = "<group>"; };
+		2BCD2D55A7582D0907A7E7308E7A588E /* Pods-GuauMaps-GuauMapsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GuauMaps-GuauMapsUITests-umbrella.h"; sourceTree = "<group>"; };
+		43A950FF35DC6203F0FF76E724322BD8 /* Pods-GuauMaps-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuauMaps-Info.plist"; sourceTree = "<group>"; };
+		4FCC555E1C8781331411A171D9BE1151 /* Pods-GuauMaps-GuauMapsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GuauMaps-GuauMapsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5C12E9457C9FD20E3E7E36100368EC9D /* Pods-GuauMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuauMaps.release.xcconfig"; sourceTree = "<group>"; };
+		5D16376F497E52342B6B2438278DA75D /* Pods-GuauMapsTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuauMapsTests-Info.plist"; sourceTree = "<group>"; };
+		5EB0292A57FB5B3C98D01602E79EDC1B /* Pods-GuauMapsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuauMapsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		64CDE8BED2AE8DE0267EE3FD0A70906C /* Pods-GuauMaps-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuauMaps-acknowledgements.plist"; sourceTree = "<group>"; };
+		6F3EF434C07859AC2517D29B1FDE96E1 /* Pods-GuauMapsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GuauMapsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77157E0446DBE2D838D3166B3A3DF53F /* Pods-GuauMaps-GuauMapsUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GuauMaps-GuauMapsUITests"; path = Pods_GuauMaps_GuauMapsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79822053A266C78B9F458F4D88544396 /* Pods-GuauMapsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuauMapsTests.release.xcconfig"; sourceTree = "<group>"; };
+		940A4EE91064E5B109BAD13076674A45 /* Pods-GuauMaps-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GuauMaps-acknowledgements.markdown"; sourceTree = "<group>"; };
+		99AB18B2069BB942C1B70176BF337237 /* Pods-GuauMaps-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GuauMaps-umbrella.h"; sourceTree = "<group>"; };
+		9C4EF225ED10DF05244507545E22AEB8 /* Pods-GuauMapsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GuauMapsTests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A89E2728A478BCEC2A614CFD36134C9C /* Pods-GuauMaps-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GuauMaps-dummy.m"; sourceTree = "<group>"; };
+		ACD3D2DEDF79022FFDB37AC09B12A33C /* Pods-GuauMaps-GuauMapsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuauMaps-GuauMapsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B18933156C83ED543140385B23278B56 /* Pods-GuauMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuauMaps.debug.xcconfig"; sourceTree = "<group>"; };
+		CDE90AB765326E7DE02168987C0DCF56 /* Pods-GuauMaps-GuauMapsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuauMaps-GuauMapsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D3F1829DC3BD37B85EAEC6AE661BFF7F /* Pods-GuauMapsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuauMapsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D8851E5CB12632EFF2879A1F85966797 /* Pods-GuauMapsTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GuauMapsTests"; path = Pods_GuauMapsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6985B251B6E24909F03332687CC7CD /* Pods-GuauMaps-GuauMapsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GuauMaps-GuauMapsUITests.modulemap"; sourceTree = "<group>"; };
+		F00FE7A86074637458C4D0E0D2F8E7F8 /* Pods-GuauMaps-GuauMapsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuauMaps-GuauMapsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3F7B45A798EE3DE0C9CF8D8CCB40C32 /* Pods-GuauMaps.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GuauMaps.modulemap"; sourceTree = "<group>"; };
+		F4AE26A35F088F264D3EAED64A59EADA /* Pods-GuauMaps-GuauMapsUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuauMaps-GuauMapsUITests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E6C5C52E003CE9B7915D066C0817E08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342B3BCF56D991391B79AB0F84C85D82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6620E82880897E4373B455B9C4F7B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450CBE5550019014A58EC10A28F7B9D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E909B18120C3194BC998EE4A91139951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5895EA0B496F5758DDF4F6BF5060D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28DD09DE8ED5748931FAF737C1E4CB16 /* Pods-GuauMaps */ = {
+			isa = PBXGroup;
+			children = (
+				F3F7B45A798EE3DE0C9CF8D8CCB40C32 /* Pods-GuauMaps.modulemap */,
+				940A4EE91064E5B109BAD13076674A45 /* Pods-GuauMaps-acknowledgements.markdown */,
+				64CDE8BED2AE8DE0267EE3FD0A70906C /* Pods-GuauMaps-acknowledgements.plist */,
+				A89E2728A478BCEC2A614CFD36134C9C /* Pods-GuauMaps-dummy.m */,
+				43A950FF35DC6203F0FF76E724322BD8 /* Pods-GuauMaps-Info.plist */,
+				99AB18B2069BB942C1B70176BF337237 /* Pods-GuauMaps-umbrella.h */,
+				B18933156C83ED543140385B23278B56 /* Pods-GuauMaps.debug.xcconfig */,
+				5C12E9457C9FD20E3E7E36100368EC9D /* Pods-GuauMaps.release.xcconfig */,
+			);
+			name = "Pods-GuauMaps";
+			path = "Target Support Files/Pods-GuauMaps";
+			sourceTree = "<group>";
+		};
+		375F65FFC6E29ADFAF40E27C58A48344 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2407EC3EEF6A7D0D0E902A32A9C5CFA1 /* Pods-GuauMaps */,
+				77157E0446DBE2D838D3166B3A3DF53F /* Pods-GuauMaps-GuauMapsUITests */,
+				D8851E5CB12632EFF2879A1F85966797 /* Pods-GuauMapsTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BFF591A8C3FD133169A3F4008238620 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28DD09DE8ED5748931FAF737C1E4CB16 /* Pods-GuauMaps */,
+				95EB541BF5D3C354371DE21F5C1622A5 /* Pods-GuauMaps-GuauMapsUITests */,
+				726DD0F026E5678F281E9DBFE7BD97AF /* Pods-GuauMapsTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		726DD0F026E5678F281E9DBFE7BD97AF /* Pods-GuauMapsTests */ = {
+			isa = PBXGroup;
+			children = (
+				23C58150E6A27B9EB46AED5CB977E42C /* Pods-GuauMapsTests.modulemap */,
+				6F3EF434C07859AC2517D29B1FDE96E1 /* Pods-GuauMapsTests-acknowledgements.markdown */,
+				D3F1829DC3BD37B85EAEC6AE661BFF7F /* Pods-GuauMapsTests-acknowledgements.plist */,
+				2B21A89CC6E3944A9E683C00C2BEDE9F /* Pods-GuauMapsTests-dummy.m */,
+				5D16376F497E52342B6B2438278DA75D /* Pods-GuauMapsTests-Info.plist */,
+				9C4EF225ED10DF05244507545E22AEB8 /* Pods-GuauMapsTests-umbrella.h */,
+				5EB0292A57FB5B3C98D01602E79EDC1B /* Pods-GuauMapsTests.debug.xcconfig */,
+				79822053A266C78B9F458F4D88544396 /* Pods-GuauMapsTests.release.xcconfig */,
+			);
+			name = "Pods-GuauMapsTests";
+			path = "Target Support Files/Pods-GuauMapsTests";
+			sourceTree = "<group>";
+		};
+		95EB541BF5D3C354371DE21F5C1622A5 /* Pods-GuauMaps-GuauMapsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB6985B251B6E24909F03332687CC7CD /* Pods-GuauMaps-GuauMapsUITests.modulemap */,
+				4FCC555E1C8781331411A171D9BE1151 /* Pods-GuauMaps-GuauMapsUITests-acknowledgements.markdown */,
+				CDE90AB765326E7DE02168987C0DCF56 /* Pods-GuauMaps-GuauMapsUITests-acknowledgements.plist */,
+				2A32149D8DFD5463CE6D89C2E3615C22 /* Pods-GuauMaps-GuauMapsUITests-dummy.m */,
+				F4AE26A35F088F264D3EAED64A59EADA /* Pods-GuauMaps-GuauMapsUITests-Info.plist */,
+				2BCD2D55A7582D0907A7E7308E7A588E /* Pods-GuauMaps-GuauMapsUITests-umbrella.h */,
+				F00FE7A86074637458C4D0E0D2F8E7F8 /* Pods-GuauMaps-GuauMapsUITests.debug.xcconfig */,
+				ACD3D2DEDF79022FFDB37AC09B12A33C /* Pods-GuauMaps-GuauMapsUITests.release.xcconfig */,
+			);
+			name = "Pods-GuauMaps-GuauMapsUITests";
+			path = "Target Support Files/Pods-GuauMaps-GuauMapsUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				375F65FFC6E29ADFAF40E27C58A48344 /* Products */,
+				4BFF591A8C3FD133169A3F4008238620 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2FBBE8645A6248E7123458CDFB36809E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1486A329021E47168DDEE1F389FFCF1A /* Pods-GuauMaps-GuauMapsUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70D86F3BC8395FF1500F675DA4D58077 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520F7C659970F1A768783B49CB976BA1 /* Pods-GuauMapsTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75B92514B1F644D7927A385708E680D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAA487BDC121CE46807E3DD915A8357 /* Pods-GuauMaps-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		45CCF01509CE5E9188FF5A894FA81F01 /* Pods-GuauMapsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F7C85BE9E29E353556F02FD9BAB22CD /* Build configuration list for PBXNativeTarget "Pods-GuauMapsTests" */;
+			buildPhases = (
+				70D86F3BC8395FF1500F675DA4D58077 /* Headers */,
+				491333FD4BC8FFD8200B40DAC4CFE6BB /* Sources */,
+				B6620E82880897E4373B455B9C4F7B63 /* Frameworks */,
+				18543159F891626AC99A276396F346BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0690ADA69570CD1E964757A3912AEEA /* PBXTargetDependency */,
+			);
+			name = "Pods-GuauMapsTests";
+			productName = Pods_GuauMapsTests;
+			productReference = D8851E5CB12632EFF2879A1F85966797 /* Pods-GuauMapsTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0AF79CC11E284FBDF9FF1AF99B5BFD2 /* Pods-GuauMaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07807E2813A3A655D2FE0A68230B76BF /* Build configuration list for PBXNativeTarget "Pods-GuauMaps" */;
+			buildPhases = (
+				E75B92514B1F644D7927A385708E680D /* Headers */,
+				88A079D90D65273975F9CCFB4E7F8E9E /* Sources */,
+				3E6C5C52E003CE9B7915D066C0817E08 /* Frameworks */,
+				93855EF524B471BDED96A7BDB5E944F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GuauMaps";
+			productName = Pods_GuauMaps;
+			productReference = 2407EC3EEF6A7D0D0E902A32A9C5CFA1 /* Pods-GuauMaps */;
+			productType = "com.apple.product-type.framework";
+		};
+		E061C2A49F3CC8E87C9A4995F8F445B1 /* Pods-GuauMaps-GuauMapsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB94B47A2F0201BDC1C78AEA71C8E23A /* Build configuration list for PBXNativeTarget "Pods-GuauMaps-GuauMapsUITests" */;
+			buildPhases = (
+				2FBBE8645A6248E7123458CDFB36809E /* Headers */,
+				D93F9DC404781C8B2971517ED52E875B /* Sources */,
+				E909B18120C3194BC998EE4A91139951 /* Frameworks */,
+				1D3EBFC6D59B41CDBC76626657F3B5C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GuauMaps-GuauMapsUITests";
+			productName = Pods_GuauMaps_GuauMapsUITests;
+			productReference = 77157E0446DBE2D838D3166B3A3DF53F /* Pods-GuauMaps-GuauMapsUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 375F65FFC6E29ADFAF40E27C58A48344 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0AF79CC11E284FBDF9FF1AF99B5BFD2 /* Pods-GuauMaps */,
+				E061C2A49F3CC8E87C9A4995F8F445B1 /* Pods-GuauMaps-GuauMapsUITests */,
+				45CCF01509CE5E9188FF5A894FA81F01 /* Pods-GuauMapsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18543159F891626AC99A276396F346BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D3EBFC6D59B41CDBC76626657F3B5C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93855EF524B471BDED96A7BDB5E944F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		491333FD4BC8FFD8200B40DAC4CFE6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8448887ACB21D2FAB13CDF8E661945 /* Pods-GuauMapsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A079D90D65273975F9CCFB4E7F8E9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1EE3228D9E5A92421844EFD2C43A8D /* Pods-GuauMaps-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D93F9DC404781C8B2971517ED52E875B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31439DA83E2B8D14FA95CAF75EAFB65E /* Pods-GuauMaps-GuauMapsUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0690ADA69570CD1E964757A3912AEEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GuauMaps";
+			target = A0AF79CC11E284FBDF9FF1AF99B5BFD2 /* Pods-GuauMaps */;
+			targetProxy = 37435D1FD9132DDD7F4E9E7C48671F74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		119D25BC8590F02A997CE3B28DA2EFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		34F659756A5197BDCF34844938BAC9C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C12E9457C9FD20E3E7E36100368EC9D /* Pods-GuauMaps.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GuauMaps/Pods-GuauMaps-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuauMaps/Pods-GuauMaps.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4787D394B7B3CF08946586DA6A2DECEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACD3D2DEDF79022FFDB37AC09B12A33C /* Pods-GuauMaps-GuauMapsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GuauMaps-GuauMapsUITests/Pods-GuauMaps-GuauMapsUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuauMaps-GuauMapsUITests/Pods-GuauMaps-GuauMapsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F4225877C794ABEB78776F47754104E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8E03DBCBD20714D9AB2E41D5D5CD4CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B18933156C83ED543140385B23278B56 /* Pods-GuauMaps.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GuauMaps/Pods-GuauMaps-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuauMaps/Pods-GuauMaps.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE0AA581DFEEC4FD04FCEDC68E540155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EB0292A57FB5B3C98D01602E79EDC1B /* Pods-GuauMapsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GuauMapsTests/Pods-GuauMapsTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuauMapsTests/Pods-GuauMapsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2D7C5573FBE702917C18329B2E7C9C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79822053A266C78B9F458F4D88544396 /* Pods-GuauMapsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GuauMapsTests/Pods-GuauMapsTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuauMapsTests/Pods-GuauMapsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE65502478F4D29B4232C771BB5BFA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F00FE7A86074637458C4D0E0D2F8E7F8 /* Pods-GuauMaps-GuauMapsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GuauMaps-GuauMapsUITests/Pods-GuauMaps-GuauMapsUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuauMaps-GuauMapsUITests/Pods-GuauMaps-GuauMapsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07807E2813A3A655D2FE0A68230B76BF /* Build configuration list for PBXNativeTarget "Pods-GuauMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E03DBCBD20714D9AB2E41D5D5CD4CEB /* Debug */,
+				34F659756A5197BDCF34844938BAC9C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				119D25BC8590F02A997CE3B28DA2EFA5 /* Debug */,
+				6F4225877C794ABEB78776F47754104E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F7C85BE9E29E353556F02FD9BAB22CD /* Build configuration list for PBXNativeTarget "Pods-GuauMapsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE0AA581DFEEC4FD04FCEDC68E540155 /* Debug */,
+				E2D7C5573FBE702917C18329B2E7C9C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB94B47A2F0201BDC1C78AEA71C8E23A /* Build configuration list for PBXNativeTarget "Pods-GuauMaps-GuauMapsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE65502478F4D29B4232C771BB5BFA70 /* Debug */,
+				4787D394B7B3CF08946586DA6A2DECEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
