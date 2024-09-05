@@ -8,6 +8,7 @@ target 'GuauMaps' do
   pod 'Alamofire'
   pod 'lottie-ios'
   pod 'GoogleMaps'
+  pod 'GooglePlaces'
   pod 'Firebase/Analytics'
   pod 'Firebase/Firestore'
   pod 'Firebase/Auth'
