@@ -10,6 +10,7 @@ xcuserdata/
 *.xcuserdata/
 
 # Pods - Evita subir los archivos generados por CocoaPods
+Pods
 Pods/
 Podfile.lock
 
@@ -32,3 +33,17 @@ Podfile.lock
 
 # Archivos de historia de estado
 *.DS_Store
+
+# Archivos de configuración del sistema
+Configuration.plist
+
+# Excluir archivos específicos de configuración de Pods para los tests
+Pods/Target\ Support\ Files/Pods-*/Pods-*.xcconfig
+
+# Excluir archivos de configuración de configuración de Pods para todos los objetivos
+Pods/Target\ Support\ Files/Pods-*/Pods-*.release.xcconfig
+Pods/Target\ Support\ Files/Pods-*/Pods-*.debug.xcconfig
+
+# Excluir directorios de soporte para los tests de Pods
+Pods/Target\ Support\ Files/Pods-*/Pods-*-Tests/
+
