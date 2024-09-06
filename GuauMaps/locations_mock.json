@@ -1,0 +1,41 @@
+[
+    {
+        "latitude": 37.7749,
+        "longitude": -122.4194,
+        "title": "San Francisco",
+        "snippet": "Ciudad de California",
+        "iconName": "icon_sf",
+        "imageUrls": [ "https://images.pexels.com/photos/333083/pexels-photo-333083.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/551628/pexels-photo-551628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/58997/pexels-photo-58997.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/35638/labrador-breed-dogs-animal.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "rating": 4.6
+    },
+    {
+        "latitude": 34.0522,
+        "longitude": -118.2437,
+        "title": "Los Angeles",
+        "snippet": "Ciudad de Los Angeles",
+        "iconName": "icon_la",
+        "imageUrls": [ "https://images.pexels.com/photos/333083/pexels-photo-333083.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/551628/pexels-photo-551628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/58997/pexels-photo-58997.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/35638/labrador-breed-dogs-animal.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "rating": 10
+    },
+    {
+        "latitude": 40.7128,
+        "longitude": -74.0060,
+        "title": "Nueva York",
+        "snippet": "Ciudad de Nueva York",
+        "iconName": "icon_ny",
+        "imageUrls": [ "https://images.pexels.com/photos/333083/pexels-photo-333083.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/551628/pexels-photo-551628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/58997/pexels-photo-58997.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/35638/labrador-breed-dogs-animal.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "rating": 5.7
+    }
+]
