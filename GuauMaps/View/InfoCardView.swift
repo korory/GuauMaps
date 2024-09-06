@@ -7,10 +7,9 @@
 
 import SwiftUI
 
-// Vista SwiftUI para mostrar la tarjeta de información
 struct InfoCardView: View {
     let location: LocationModel
-    @State private var selectedImageIndex: Int = 0 // Para rastrear la imagen actual
+    @State private var selectedImageIndex: Int = 0
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -42,7 +41,6 @@ extension InfoCardView {
                             .padding(.bottom, 10)
                             .padding(.top, 10)
                     } else if phase.error != nil {
-                        // En caso de error
                         Image(systemName: "photo")
                             .resizable()
                             .scaledToFit()
@@ -51,7 +49,6 @@ extension InfoCardView {
                             .cornerRadius(8)
                             .padding(.top, 10)
                     } else {
-                        // Placeholder mientras se carga la imagen
                         ProgressView()
                             .frame(width: 100, height: 100)
                             .padding(.top, 10)
