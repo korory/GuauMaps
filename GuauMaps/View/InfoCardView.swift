@@ -14,7 +14,6 @@ struct InfoCardView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            // Carrusel de imágenes
             imageCarrousel
             bottomInformation
             ratingView
@@ -86,14 +85,14 @@ extension InfoCardView {
     
     private var navigateToDetailScreen: some View {
         VStack {
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+            NavigationLink(destination: CardDetailView(titleString: location.title, images: location.imageUrls)) {
                 Image(systemName: "arrow.forward")
                     .resizable()
                     .frame(width: 27, height: 22)
                     .foregroundColor(.gray)
                     .padding(.top, 25)
                     .padding(.trailing, 10)
-            })
+            }
         }
     }
 }

@@ -15,6 +15,7 @@
 		5729D84F2C8A0CA6008E7EAC /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5729D84E2C8A0CA6008E7EAC /* LocationModel.swift */; };
 		5729D8512C8A0E96008E7EAC /* InfoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5729D8502C8A0E96008E7EAC /* InfoCardView.swift */; };
 		5729D8532C8A278C008E7EAC /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5729D8522C8A278C008E7EAC /* StarRatingView.swift */; };
+		5729D8562C8A3920008E7EAC /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5729D8552C8A3920008E7EAC /* CardDetailView.swift */; };
 		57B3156B2C80810C009FCA61 /* GuauMapsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B3156A2C80810C009FCA61 /* GuauMapsApp.swift */; };
 		57B3156F2C80810D009FCA61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B3156E2C80810D009FCA61 /* Assets.xcassets */; };
 		57B315722C80810D009FCA61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B315712C80810D009FCA61 /* Preview Assets.xcassets */; };
@@ -56,6 +57,7 @@
 		5729D84E2C8A0CA6008E7EAC /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		5729D8502C8A0E96008E7EAC /* InfoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCardView.swift; sourceTree = "<group>"; };
 		5729D8522C8A278C008E7EAC /* StarRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingView.swift; sourceTree = "<group>"; };
+		5729D8552C8A3920008E7EAC /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
 		579422B22C80D6CC00B38CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		57B315672C80810C009FCA61 /* GuauMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuauMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B3156A2C80810C009FCA61 /* GuauMapsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuauMapsApp.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 		570126F92C80E04B00C858F9 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				5729D8542C8A390F008E7EAC /* CardDetailView */,
 				570126FD2C80E15F00C858F9 /* MainView */,
 			);
 			path = App;
@@ -153,6 +156,14 @@
 				570126FE2C80E17500C858F9 /* MainView.swift */,
 			);
 			path = MainView;
+			sourceTree = "<group>";
+		};
+		5729D8542C8A390F008E7EAC /* CardDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				5729D8552C8A3920008E7EAC /* CardDetailView.swift */,
+			);
+			path = CardDetailView;
 			sourceTree = "<group>";
 		};
 		57B3155E2C80810C009FCA61 = {
@@ -532,6 +543,7 @@
 				5729D84F2C8A0CA6008E7EAC /* LocationModel.swift in Sources */,
 				5729D8512C8A0E96008E7EAC /* InfoCardView.swift in Sources */,
 				57B3156B2C80810C009FCA61 /* GuauMapsApp.swift in Sources */,
+				5729D8562C8A3920008E7EAC /* CardDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
